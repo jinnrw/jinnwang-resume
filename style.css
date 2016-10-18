@@ -39,6 +39,9 @@ li {
 /* ========== Responsive ==========*/
 /*650px - 1920px*/
 @media screen and  (min-width: 650px) {
+  .main {
+    max-width: 600px;
+  }
 
   .resume {
     padding: 50px !important;
@@ -47,16 +50,20 @@ li {
 
 /*0 - 650px*/
 @media screen and (max-width: 650px) {
-
   .resume {
     padding: 50px 30px !important;
+  }
+}
+
+@media screen and (max-width: 800px)  {
+  .main {
+    max-width: 90%;
   }
 }
 
 /* ========== main CSS ==========*/
 .main {
   height: 100%;
-  max-width: 600px;
   margin: auto;
 }
 
